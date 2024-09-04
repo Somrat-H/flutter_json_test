@@ -9,11 +9,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 39, 51, 40),
+      backgroundColor: const Color.fromARGB(255, 57, 85, 59),
       appBar: AppBar(
-        title: const Text("Flutter Josn Test"),
-        centerTitle: true,
-      ),
+          title: const Text("Flutter Json Test"),
+          centerTitle: true,
+          backgroundColor: Color.fromARGB(255, 105, 138, 108)),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => const OutputOnePage()));
               },
               child: const Text(
-                "Output 1",
+                "Output 1 -> ",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w700,
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => const OutputTowPage()));
               },
               child: const Text(
-                "Output 2",
+                "Output 2 ->",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w700,
